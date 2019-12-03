@@ -14,14 +14,27 @@
 <body>
   <nav class="navbar navbar-light bg-light">
     <form class="form-inline">
-      <input class="form-control mr-sm-2" id="user-input" type="text" 
-        aria-label="Search">
+      <input class="form-control mr-sm-2" id="user-input" type="text" aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" id="search-button" type="submit">Get Weather</button>
       <nav class="navbar navbar-light bg-light">
         <span class="navbar-brand mb-0 h1">Weather Dashboard</span>
       </nav>
     </form>
   </nav>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Current Weather</h1>
+      <p class="lead" id="current-temp"></p>
+      <p class="lead" id="current-humidity"></p>
+      <p class="lead" id="windspeed"></p>
+      <p class="lead" id="uv-index"></p>
+      
+
+
+
+ 
+    </div>
+  </div>
   <div id="container">
     <div id="search-history"></div>
     <div id="search-results"></div>
